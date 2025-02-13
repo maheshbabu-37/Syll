@@ -10,7 +10,12 @@
             background-color: #735DA5;
         }
         .hero{
-            background-color: #D3C5E5;
+            background-color:#D3C5E5;
+            background-image: url("/Syll/images/back.avif");
+            background-position: center;
+            background-size: contain;
+            background-position-x: left;
+            opacity: 0.8;
             height: 500px;
             position: relative;
         }
@@ -100,16 +105,38 @@
             .hero-bor{
                 bottom: -21px;
                 height: 5px;
-                background-color: black;
+                background-color:solid black;
                 width: 200px;
             }
         }
-        
+        .header{
+            display: flex;
+            position: relative;
+            align-items: center;
+        }
+        .head-img{
+            height: 60px;
+            top: -5px;
+        }
+        .menu{
+            position: absolute;
+            right: 0;
+            top: 5px;
+        }
+        .home{
+            position: absolute;
+            right: 50px;
+        }
     </style>
 </head>
 <body style="margin: 0;">
-    <div class="header"></div>
+    <div class="header">
+        <div><img class="head-img" src="/Syll/images/engineering1.png"></div>
+        <div class="home"><p style="color: white;margin: 0px; font-size: 20px;">Home</p></div>
+        <div class="menu"><img style="height: 40px;" src="/Syll/images/menu.png"></div>
+    </div>
     <div class="hero">
+        
         <div class="hero-name"><p class="hero-p">Engineering</p></div>
         <div class="hero-bor"></div>
         
