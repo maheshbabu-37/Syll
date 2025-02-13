@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        .header{
+            height: 50px;
+            background-color: #735DA5;
+        }
+        .hero{
+            background-color: #D3C5E5;
+            height: 500px;
+            position: relative;
+        }
+        .hero-fotter{
+            width: 0;
+            height: 0;
+            border-left: 800px solid transparent;
+            border-top: 50px solid transparent;
+            border-bottom: 240px solid white;
+            position: absolute;
+            right: 0px;
+            bottom: 0px;
+            z-index: 10;
+        }
+        .hero-image{
+            position: absolute;
+            z-index: 11;
+            right: 100px;
+            bottom: 50px;
+        }
+        .hero-img{
+            width: 600px;
+        }
+        .hero-p{
+            margin: 0;
+            color: white;
+            font-family: monospace;
+            font-weight: bold;
+            font-size: 100px;
+            transition: display 0.15s;
+        }
+        .hero-name{
+            position: absolute;
+            left: 50px;
+            bottom: 120px;
+            overflow: hidden;
+            transition: display 0.15s;
+        }
+        .hero-bor{
+            height: 10px;
+            width: 400px;
+            border: none;
+            border-radius: 100px;
+            position: absolute;
+            background-color: white;
+            left: 120px;
+            bottom: 90px;
+            overflow: hidden;
+            transition: display 0.15s;
+        }
+        .m-name{
+            font-family: monospace;
+            font-size: 60px;
+        }
+        @media (max-width:700px){
+            .hero-name{
+                bottom: -20px;
+                z-index: 11;
+            }
+            .hero-p{
+                font-size: 60px;
+                color: black;
+            }
+            .hero-bor{
+                bottom: -40px;
+                height: 5px;
+                background-color: black;
+                width: 200px;
+            }
+            .hero-image{
+                justify-content: center;
+                align-items: center;
+            }
+        }
+        @media (max-width:500px){
+            .hero-img{
+                width: 500px;
+            }
+        }
+        
+    </style>
+</head>
+<body style="margin: 0;">
+    <div class="header"></div>
+    <div class="hero">
+        <div class="hero-name"><p class="hero-p">Engineering</p></div>
+        <div class="hero-bor"></div>
+        
+        <div class="hero-image"><img class="hero-img" src="/site/images/engineering.webp"></div>
+        <div class="hero-fotter"></div>
+    </div>
+    
+</body>
+</html>
