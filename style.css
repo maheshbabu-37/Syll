@@ -83,7 +83,7 @@ body{
     display: flex;
     height: 100hv;
     flex-wrap: wrap;
-    padding: 1.25rem;
+    
     justify-content: center;
     align-items: center;
     gap: 0.625rem;
@@ -174,15 +174,37 @@ body{
     border-radius: 0.3125rem;
     font-size: 20px;
 }
-@media (min-width:700px){
+@media (min-width:1100px){
     .sub{
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
 }
-@media (max-width:700px){
+@media (max-width:1100px){
     .sub{
         display: grid;
         grid-template-columns: 1fr;
+    }
+    .cardimg{
+        width: 22rem;
+        height: 16rem;
+        border-radius: 1.25rem;
+        border: 0.5rem solid var(--border-color);
+        overflow: hidden;
+        position: relative;
+    }
+    .curve_one{
+        background-color: transparent;
+        left: 39.7%;
+        bottom: 4px;
+        border-bottom-right-radius: 0.625rem;
+        box-shadow: 0.375rem 0.375rem var(--bg-color);
+    }
+    .curve_two{
+        background-color: transparent;
+        left: 37.7%;
+        bottom: 11px;
+        border-bottom-right-radius: 0.625rem;
+        box-shadow: 0.375rem 0.375rem var(--border-color);
     }
 }
