@@ -1,5 +1,5 @@
 body{
-    margin: 0;
+    margin: 0px;
 }
 p{
     color: white;
@@ -45,7 +45,6 @@ p{
     padding: 8px 16px;
     border-radius: 16px;
     margin-top: 14px;
-    margin-right: 16px;
 }
 .sub-main{
     font-size: 50px;
