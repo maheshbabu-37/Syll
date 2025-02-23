@@ -3,146 +3,129 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <style>
-        .header{
-            height: 50px;
-            background-color: #735DA5;
-        }
-        .hero{
-            background-color:#D3C5E5;
-            background-image: url("/Syll/images/back.avif");
-            background-position: center;
-            background-size: contain;
-            background-position-x: left;
-            opacity: 0.8;
-            height: 500px;
-            position: relative;
-        }
-        .hero-fotter{
-            width: 0;
-            height: 0;
-            border-left: 800px solid transparent;
-            border-top: 50px solid transparent;
-            border-bottom: 240px solid white;
-            position: absolute;
-            right: 0px;
-            bottom: 0px;
-            z-index: 10;
-        }
-        .hero-image{
-            position: absolute;
-            z-index: 11;
-            right: 100px;
-            bottom: 50px;
-        }
-        .hero-img{
-            width: 600px;
-        }
-        .hero-p{
-            margin: 0;
-            color: white;
-            font-family: monospace;
-            font-weight: bold;
-            font-size: 100px;
-            transition: display 0.15s;
-        }
-        .hero-name{
-            position: absolute;
-            left: 50px;
-            bottom: 120px;
-            overflow: hidden;
-            transition: display 0.15s;
-        }
-        .hero-bor{
-            height: 10px;
-            width: 400px;
-            border: none;
-            border-radius: 100px;
-            position: absolute;
-            background-color: white;
-            left: 120px;
-            bottom: 90px;
-            overflow: hidden;
-            transition: display 0.15s;
-        }
-        .m-name{
-            font-family: monospace;
-            font-size: 60px;
-        }
-        @media (max-width:700px){
-            .hero-name{
-                bottom: -20px;
-                z-index: 11;
-                left:100px;
-            }
-            .hero-p{
-                font-size: 40px;
-                color: black;
-            }
-            .hero-bor{
-                bottom: -40px;
-                height: 5px;
-                background-color: black;
-                width: 200px;
-            }
-            .hero-image{
-                justify-content: center;
-                align-items: center;
-                right: 50px;
-                bottom: 60px;
-            }
-        }
-        @media (max-width:450px){
-            .hero-img{
-                width: 500px;
-            }
-            .hero-name{
-                bottom: -1px;
-                z-index: 11;
-                left:80px;
-            }
-            .hero-bor{
-                bottom: -21px;
-                height: 5px;
-                background-color:solid black;
-                width: 200px;
-            }
-        }
-        .header{
-            display: flex;
-            position: relative;
-            align-items: center;
-        }
-        .head-img{
-            height: 60px;
-            top: -5px;
-        }
-        .menu{
-            position: absolute;
-            right: 0;
-            top: 5px;
-        }
-        .home{
-            position: absolute;
-            right: 50px;
-        }
-    </style>
+    <title>Document</title>
+    <link href="/Syll/style.css" rel="stylesheet">
 </head>
-<body style="margin: 0;">
-    <div class="header">
-        <div><img class="head-img" src="/Syll/images/engineering1.png"></div>
-        <div class="home"><p style="color: white;margin: 0px; font-size: 20px;">Home</p></div>
-        <div class="menu"><img style="height: 40px;" src="/Syll/images/menu.png"></div>
+<body>
+    <header class="head">
+        <div>
+            <div>
+                <div class="head-main">
+                    <div class="main-p"><p class="head-main-p">Engineering</p></div>
+                    <div class="main-b"><button class="head-main-b">Home</button></div>
+                </div>
+                <div>
+                    <p class="sub-main">Innovate<br><span class="sub-main-t">Engineer</span><br>Elevate</p>
+                    <p class="sub-main-p">Designing solutions that bridge the gap between imagination and reality.</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <p class="category">Categories</p>
+    <div class="sub">
+        <div class="container">
+            <div class="card">
+                <div class="carding">
+                    <img alt="" class="cardimg" src="/Syll/img/cse-blog.jpg">
+                </div>
+                <div class="tag">
+                    <p>Download</p>
+                </div>
+                <div class="curve_one"></div>
+                <div class="curve_two"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="card">
+                <div class="carding">
+                    <img alt="" class="cardimg" src="/Syll/img/1649759149933.jpeg">
+                </div>
+                <div class="tag">
+                    <p>Download</p>
+                </div>
+                <div class="curve_one"></div>
+                <div class="curve_two"></div>
+                
+            </div>
+        </div>
+        <div class="container">
+            <div class="card">
+                <div class="carding">
+                    <img alt="" class="cardimg" src="/Syll/img/1649759149933.jpeg">
+                </div>
+                <div class="tag">
+                    <p>Download</p>
+                </div>
+                <div class="curve_one"></div>
+                <div class="curve_two"></div>
+                
+            </div>
+        </div>
+        <div class="container">
+            <div class="card">
+                <div class="carding">
+                    <img alt="" class="cardimg" src="/Syll/img/1649759149933.jpeg">
+                </div>
+                <div class="tag">
+                    <p>Download</p>
+                </div>
+                <div class="curve_one"></div>
+                <div class="curve_two"></div>
+                
+            </div>
+        </div>
+        <div class="container">
+            <div class="card">
+                <div class="carding">
+                    <img alt="" class="cardimg" src="/Syll/img/1649759149933.jpeg">
+                </div>
+                <div class="tag">
+                    <p>Download</p>
+                </div>
+                <div class="curve_one"></div>
+                <div class="curve_two"></div>
+                
+            </div>
+        </div>
+        <div class="container">
+            <div class="card">
+                <div class="carding">
+                    <img alt="" class="cardimg" src="/Syll/img/1649759149933.jpeg">
+                </div>
+                <div class="tag">
+                    <p>Download</p>
+                </div>
+                <div class="curve_one"></div>
+                <div class="curve_two"></div>
+                
+            </div>
+        </div>
+        <div class="container">
+            <div class="card">
+                <div class="carding">
+                    <img alt="" class="cardimg" src="/Syll/img/1649759149933.jpeg">
+                </div>
+                <div class="tag">
+                    <p>Download</p>
+                </div>
+                <div class="curve_one"></div>
+                <div class="curve_two"></div>
+                
+            </div>
+        </div>
+        <div class="container">
+            <div class="card">
+                <div class="carding">
+                    <img alt="" class="cardimg" src="/Syll/img/1649759149933.jpeg">
+                </div>
+                <div class="tag">
+                    <p>Download</p>
+                </div>
+                <div class="curve_one"></div>
+                <div class="curve_two"></div>
+                
+            </div>
+        </div>
     </div>
-    <div class="hero">
-        
-        <div class="hero-name"><p class="hero-p">Engineering</p></div>
-        <div class="hero-bor"></div>
-        
-        <div class="hero-image"><img class="hero-img" src="/Syll/images/engineering.webp"></div>
-        <div class="hero-fotter"></div>
-    </div>
-    
 </body>
 </html>
