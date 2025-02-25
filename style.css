@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceberg&family=Lavishly+Yours&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Foldit:wght@700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Lines&display=swap');
 body{
     margin: 0px;
 }
@@ -24,6 +27,8 @@ p{
     flex: 1;
     justify-content: center;
     align-items: center;
+    font-family: "Iceberg", serif;
+    font-weight: bold;
 }
 .main-b{
     width: 80px;
@@ -50,12 +55,14 @@ p{
     font-size: 50px;
     margin-top: 150px;
     margin-left: 30px;
+    font-family: "Rubik Lines", serif;
+    color: #fff;
 }
 .sub-main-p{
     margin-top: 140px;
     margin-left: 30px;
-    
-    font-size: 25px;
+    font-family: "Roboto", serif;
+    font-size: 22px;
 }
 .sub-main-t{
     color: rgb(112, 167, 248);
@@ -65,6 +72,7 @@ p{
     font-size: 50px;
     margin: 20px 0px 30px 0px;
     font-weight: bold;
+    font-family: iceberg;
 }
 *{
     border: 0;
@@ -181,6 +189,7 @@ body{
 .branch-p{
     text-align: center;
     font-size: 50px;
+    font-family: roboto;
 }
 @media (min-width:1100px){
     .sub{
