@@ -7,8 +7,11 @@ body{
 p{
     color: white;
 }
+a{
+    text-decoration: none;
+}
 .head{
-    background-image: url("/Syll/img/Pi7_Tool_1000035723.jpg");
+    background-image: url("/Syll/img/back.jpg");
     background-position: center;
     background-position-x: 70%;
     
@@ -168,8 +171,8 @@ body{
     border-bottom-right-radius: 0.625rem;
     box-shadow: 0.375rem 0.375rem var(--border-color);
 }
-.tag > p{
-    background-color: var(--border-color);
+.tag-a{
+    background-color: rgb(105, 105, 105);
     color: #fff;
     font-size: 0.875rem;
     padding: 0.5rem 0.625rem;
@@ -180,6 +183,14 @@ body{
     gap: 0.3125rem;
     border-radius: 0.3125rem;
     font-size: 20px;
+    cursor: pointer;
+}
+.tag-b{
+    background-color: rgb(105, 105, 105);
+    color: #fff;
+    font-size: 0.875rem;
+    padding: 0.2rem 0.625rem;
+    cursor: pointer;
 }
 .branch1,.branch2,.branch3,.branch4,.branch5,.branch6{
     display: flex;
@@ -213,6 +224,10 @@ body{
     .sub{
         display: grid;
         grid-template-columns: 1fr;
+    }
+    .sub-main-p{
+        width: 300px;
+        font-size: 20px;
     }
     .cardimg{
         width: 22rem;
